@@ -36,8 +36,7 @@ Value to convert.
 
 #### digits
 
-Type: `number`  
-Default: `1`
+Type: `number`
 
 Number of digits after the decimal point.
 
