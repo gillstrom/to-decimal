@@ -18,9 +18,28 @@ var toDecimal = require('to-decimal');
 toDecimal(65);
 //=> 0.65
 
-toDecimal(1234.50);
-//=> 12.3450
+toDecimal(1234.50, 1);
+//=> 12.3
 ```
+
+
+### objectRandom(value, digits)
+
+Returns a `number`.
+
+#### value
+
+*Required*  
+Type: `number`
+
+Value to convert.
+
+#### digits
+
+Type: `number`  
+Default: `1`
+
+Number of digits after the decimal point.
 
 
 ## License
