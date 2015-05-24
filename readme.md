@@ -23,7 +23,7 @@ toDecimal(1234.50, 1);
 ```
 
 
-### objectRandom(value, digits)
+### toDecimal(value, digits)
 
 Returns a `number`.
 
