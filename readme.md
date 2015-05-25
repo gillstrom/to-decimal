@@ -18,12 +18,12 @@ var toDecimal = require('to-decimal');
 toDecimal(65);
 //=> 0.65
 
-toDecimal(1234.50, 1);
+toDecimal(1234.50, {digits: 1});
 //=> 12.3
 ```
 
 
-### toDecimal(value, digits)
+### toDecimal(value, options)
 
 Returns a `number`.
 
@@ -34,7 +34,13 @@ Type: `number`
 
 Value to convert.
 
-#### digits
+#### options
+
+Type: `object`
+
+Options to pass.
+
+##### options.digits
 
 Type: `number`
 
