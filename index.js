@@ -1,5 +1,4 @@
 'use strict';
-
 module.exports = function (val, opts) {
 	if (typeof val !== 'number') {
 		throw new Error('Expected a number');
