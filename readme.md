@@ -13,7 +13,7 @@ $ npm install --save to-decimal
 ## Usage
 
 ```js
-var toDecimal = require('to-decimal');
+const toDecimal = require('to-decimal');
 
 toDecimal(65);
 //=> 0.65
